@@ -4,6 +4,23 @@ A mobile-first executive dashboard for Q-Commerce CFOs. Get real-time visibility
 
 ![CFO Insight Dashboard](https://img.shields.io/badge/Next.js-14-black) ![TypeScript](https://img.shields.io/badge/TypeScript-5.x-blue) ![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.x-38bdf8)
 
+## Screenshots
+
+### Dashboard
+![Dashboard](./screenshots/dashboard.png)
+
+### Cash Health - Drill Down
+![Cash Health](./screenshots/cash-health.png)
+
+### Fulfillment Flow - Drill Down
+![Fulfillment Flow](./screenshots/fulfillment-flow.png)
+
+### Unit Economics - Drill Down
+![Unit Economics](./screenshots/unit-economics.png)
+
+### Key Metrics & AI Analysis
+![Key Metrics](./screenshots/key-metrics.png)
+
 ## Features
 
 - **3 Status Tiles** - Cash Health, Fulfillment Flow, Unit Economics
