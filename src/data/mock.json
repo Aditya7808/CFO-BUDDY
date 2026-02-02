@@ -1,0 +1,40 @@
+{
+    "companyName": "Zepto",
+    "lastUpdated": "2026-02-03T02:00:00+05:30",
+    "cashHealth": {
+        "status": "green",
+        "trend": "stable",
+        "message": "Runway is 8 months. Cash stable.",
+        "details": {
+            "cashBalance": 150000000,
+            "monthlyBurnRate": 18000000,
+            "runwayMonths": 8.3,
+            "payroll": 12000000,
+            "liquidityRatio": 12.5
+        }
+    },
+    "fulfillmentFlow": {
+        "status": "amber",
+        "trend": "down",
+        "message": "2 stores slow. Rider wait 5 min.",
+        "details": {
+            "totalStores": 45,
+            "storesAtRisk": 2,
+            "avgRiderWaitMinutes": 5.2,
+            "ordersAging15Min": 23,
+            "avgCongestionPercent": 72
+        }
+    },
+    "unitEconomics": {
+        "status": "green",
+        "trend": "up",
+        "message": "Margins healthy. Promos controlled.",
+        "details": {
+            "contributionMarginPercent": 12.4,
+            "avgOrderValue": 385,
+            "deliveryCostPerOrder": 32,
+            "promoLeakagePercent": 6.8,
+            "totalOrdersToday": 48500
+        }
+    }
+}

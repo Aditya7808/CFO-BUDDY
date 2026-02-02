@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --background: #0A0A0F;
+    --card-background: #12121A;
+    --green: #10B981;
+    --amber: #F59E0B;
+    --red: #EF4444;
+    --text-primary: #FFFFFF;
+    --text-secondary: #A1A1AA;
+}
+
+body {
+    background-color: var(--background);
+    color: var(--text-primary);
+    min-height: 100vh;
+}
+
+/* Card styles */
+.status-card {
+    background-color: var(--card-background);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    padding: 24px;
+    transition: all 0.2s ease;
+}
+
+.status-card:hover {
+    border-color: rgba(255, 255, 255, 0.2);
+    transform: translateY(-2px);
+}
+
+/* Status indicator colors */
+.status-green {
+    background-color: var(--green);
+    box-shadow: 0 0 20px rgba(16, 185, 129, 0.3);
+}
+
+.status-amber {
+    background-color: var(--amber);
+    box-shadow: 0 0 20px rgba(245, 158, 11, 0.3);
+}
+
+.status-red {
+    background-color: var(--red);
+    box-shadow: 0 0 20px rgba(239, 68, 68, 0.3);
+}
+
+/* Text colors */
+.text-status-green {
+    color: var(--green);
+}
+
+.text-status-amber {
+    color: var(--amber);
+}
+
+.text-status-red {
+    color: var(--red);
+}

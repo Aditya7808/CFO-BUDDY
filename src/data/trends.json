@@ -1,0 +1,116 @@
+{
+    "cash-health": {
+        "trendData": [
+            {
+                "day": "Mon",
+                "value": 152
+            },
+            {
+                "day": "Tue",
+                "value": 148
+            },
+            {
+                "day": "Wed",
+                "value": 151
+            },
+            {
+                "day": "Thu",
+                "value": 149
+            },
+            {
+                "day": "Fri",
+                "value": 150
+            },
+            {
+                "day": "Sat",
+                "value": 150
+            },
+            {
+                "day": "Sun",
+                "value": 150
+            }
+        ],
+        "insights": [
+            "Cash balance stable at 15 Cr",
+            "Burn rate unchanged from last week",
+            "Payroll processed on Friday"
+        ],
+        "aiSummary": "Your cash position is healthy. At current burn rate, you have 8+ months of runway. No immediate action needed. Consider reviewing cloud costs next week."
+    },
+    "fulfillment-flow": {
+        "trendData": [
+            {
+                "day": "Mon",
+                "value": 65
+            },
+            {
+                "day": "Tue",
+                "value": 68
+            },
+            {
+                "day": "Wed",
+                "value": 72
+            },
+            {
+                "day": "Thu",
+                "value": 78
+            },
+            {
+                "day": "Fri",
+                "value": 75
+            },
+            {
+                "day": "Sat",
+                "value": 82
+            },
+            {
+                "day": "Sun",
+                "value": 72
+            }
+        ],
+        "insights": [
+            "Store #12 (Koramangala) hit 92% congestion on Saturday",
+            "Store #27 (Indiranagar) rider wait time spiked to 8 min",
+            "23 orders aged beyond 15 min today"
+        ],
+        "aiSummary": "Two stores need attention. Koramangala store is near capacity - consider adding a picker shift. Indiranagar rider queue is long - check if delivery partner is short-staffed."
+    },
+    "unit-economics": {
+        "trendData": [
+            {
+                "day": "Mon",
+                "value": 11.2
+            },
+            {
+                "day": "Tue",
+                "value": 11.8
+            },
+            {
+                "day": "Wed",
+                "value": 12.1
+            },
+            {
+                "day": "Thu",
+                "value": 12.5
+            },
+            {
+                "day": "Fri",
+                "value": 12.4
+            },
+            {
+                "day": "Sat",
+                "value": 12.8
+            },
+            {
+                "day": "Sun",
+                "value": 12.4
+            }
+        ],
+        "insights": [
+            "Contribution margin improved 1.2% this week",
+            "Promo leakage reduced after WELCOME50 expired",
+            "Delivery cost per order down 3 INR"
+        ],
+        "aiSummary": "Unit economics are improving. The expired promo campaign reduced leakage. Keep delivery costs stable - consider negotiating new rates with Dunzo next month."
+    }
+}
